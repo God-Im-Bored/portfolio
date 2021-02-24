@@ -1,0 +1,461 @@
+@media only screen and (max-width: 475px) {
+  img#bg-img {
+    width: 60vh;
+    height: 45vh;
+    background-repeat: round;
+  }
+  div#appbar-links {
+    display: inherit;
+  }
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-text.makeStyles-text-2.MuiButton-textSecondary {
+    font-size: 4px;
+    padding: 0px;
+    margin: 0px;
+  }
+  #top-header > p {
+    font-size: 25px;
+  }
+  div.Typewriter {
+    font-size: 8px;
+  }
+  #port-title {
+    font-size: 25px;
+  }
+  #project-grid {
+    width: 200px;
+  }
+  a.project-links {
+    border: none;
+  }
+  div#avi {
+    width: 175px;
+    height: 175px;
+  }
+  div#project-card-single.MuiPaper-root.MuiCard-root.MuiPaper-elevation8.MuiPaper-rounded {
+    margin: 15px;
+    flex: none;
+    width: 200px;
+  }
+  #bio-title {
+    font-size: 25px;
+  }
+  #skills-grid {
+    width: 250px;
+  }
+  #hobbies-body {
+    width: 250px;
+  }
+  div#hobby-card-single.MuiPaper-root.MuiCard-root.MuiPaper-elevation8.MuiPaper-rounded {
+    width: 200px;
+  }
+  p#interest {
+    width: 200px;
+  }
+  #resume-title {
+    font-size: 35px;
+  }
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    margin: 15px;
+  }
+  #contact-title {
+    font-size: 25px;
+  }
+  #copyright {
+    font-size: 6px;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  img#bg-img {
+    width: 100%;
+    height: 42vh;
+    background-repeat: round;
+  }
+  div#appbar-links {
+    display: inherit;
+  }
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-text.makeStyles-text-2.MuiButton-textSecondary {
+    font-size: 6px;
+    padding: 0px;
+    margin: 0px;
+  }
+  #top-header > p {
+    font-size: 45px;
+  }
+  div.Typewriter {
+    font-size: 10px;
+  }
+  #port-title {
+    font-size: 45px;
+  }
+  #project-grid {
+    width: 350px;
+  }
+  a.project-links {
+    border: none;
+  }
+  div#avi {
+    width: 200px;
+    height: 200px;
+  }
+  div#project-card-single.MuiPaper-root.MuiCard-root.MuiPaper-elevation8.MuiPaper-rounded {
+    margin: 15px;
+    flex: none;
+    width: 200px;
+  }
+  #bio-title {
+    font-size: 45px;
+  }
+  #skills-grid {
+    width: 200px;
+  }
+  #hobbies-body {
+    width: 350px;
+  }
+  div#hobby-card-single.MuiPaper-root.MuiCard-root.MuiPaper-elevation8.MuiPaper-rounded {
+    width: 200px;
+  }
+  #resume-title {
+    font-size: 45px;
+  }
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    margin: 15px;
+  }
+  #contact-title {
+    font-size: 45px;
+  }
+  #copyright {
+    font-size: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #cccccc;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#bg-img {
+  background-image: url("chi-new.png");
+  background-repeat: round;
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  filter: brightness(0.5);
+}
+
+#top {
+  position: fixed;
+  top: 25%;
+}
+
+#top-header {
+  position: absolute;
+  top: 25%;
+  font-family: "PT Serif" sans-serif;
+}
+
+#typewriter {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  font-size: 14px;
+}
+
+#logo {
+  float: left;
+  margin: 10px;
+  border: 4px solid black;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 30%;
+  border-top-left-radius: 30%;
+  transition: all 0.3s ease;
+}
+
+#logo:hover {
+  background-color: #f2ff49;
+}
+
+#logo:visited {
+  color: black;
+}
+
+.MuiContainer-maxWidthXl {
+  display: inline-block;
+  text-align: center;
+}
+
+.MuiToolbar-root {
+  float: right;
+  /* padding-top: 20px;
+  margin-right: 200px; */
+}
+
+#web-main {
+  position: relative;
+}
+
+#port-header {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 55px;
+}
+
+#port-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#project-card-single {
+  flex: 1;
+  margin: 15px;
+}
+
+#project-links-main {
+  justify-content: center;
+}
+
+.project-buttons {
+  justify-content: center;
+}
+
+#project-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.project-links {
+  border-radius: 20px;
+  border: 2px solid black;
+  text-transform: uppercase;
+}
+
+.project-links:hover {
+  background-color: yellow;
+}
+
+#bio {
+  position: relative;
+}
+
+#bio-header {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 55px;
+}
+
+#bio-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#avi {
+  background-image: url("avi.png");
+  width: 320px;
+  height: 320px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  background-color: #1b1c1c;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 60px;
+  /* filter: grayscale(1); */
+  transition: all 1s ease;
+  border: 5px solid #333333;
+}
+
+#intro {
+  color: #333333;
+  font-size: 1.2em;
+  line-height: 1.6;
+  padding: 20px;
+  width: 600px;
+}
+
+#bio-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#skills-header {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+#skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills-title {
+  font-size: 20px;
+  padding: 20px;
+}
+
+#skills-card-single {
+  margin: 15px;
+  width: 500px;
+}
+
+#card-header {
+  color: white;
+  text-align: center;
+  background-color: rgb(57, 61, 63);
+}
+
+#tech-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+#hobbies-header {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+#hobbies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#hobbies-title {
+  font-size: 20px;
+  padding: 20px;
+}
+
+#hobbies-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#hobbies-grid {
+  display: flex;
+  width: 450px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#hobbies-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+#interest {
+  color: #333333;
+  font-size: 1.2em;
+  line-height: 1.6;
+  padding: 20px;
+  width: 600px;
+}
+
+#resume-header {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 55px;
+}
+
+#resume-body {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#resume-links-main {
+  justify-content: space-between;
+}
+
+.resume-links {
+  border-radius: 20px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.8rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* #resume-links {
+  font-size: 0.8rem;
+  border: 2px solid #333333;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-right: 0px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+} */
+
+#contact-header {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 55px;
+}
+
+#contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  width: 250px;
+}
+
+#contact-links img {
+  width: 30px;
+  height: 30px;
+}
