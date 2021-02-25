@@ -154,7 +154,7 @@ const WebMain = () => {
                   .typeString("fullstack software engineer.")
                   .pauseFor(3000)
                   .deleteAll()
-                  .typeString("If you are in Chicago, lets meet for lunch!")
+                  .typeString("If you are in Chicago, let's meet for lunch!")
                   .start();
               }}
             />
@@ -279,7 +279,7 @@ const WebMain = () => {
               <div id="contact-links">
                 <a
                   href="mailto:aram_martin@alumni.brown.edu"
-                  onmouseover="this.href=this.href.replace(/[zyx]/g,'')"
+                  // onMouseOver="this.href=this.href.replace(/[zyx]/g,'')"
                   target="_blank"
                 >
                   <img src="/email.png"></img>
