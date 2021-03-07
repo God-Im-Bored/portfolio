@@ -278,7 +278,7 @@ const WebMain = () => {
             <footer>
               <div id="contact-links">
                 <a
-                  href="mailto:aram_martin@alumni.brown.edu"
+                  href="mailto:aram.martin.eng@gmail.com"
                   // onMouseOver="this.href=this.href.replace(/[zyx]/g,'')"
                   target="_blank"
                 >
