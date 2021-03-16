@@ -251,7 +251,7 @@ const WebMain = () => {
               <div id="resume-links-main">
                 <a
                   id="resume-view"
-                  href="/Eng-Resume.pdf"
+                  href="/Resume.pdf"
                   target="_blank"
                   className="resume-links"
                 >
@@ -259,7 +259,7 @@ const WebMain = () => {
                 </a>
                 <a
                   id="dowload-view"
-                  href="/Eng-Resume.pdf"
+                  href="Resume.pdf"
                   download
                   className="resume-links"
                 >
