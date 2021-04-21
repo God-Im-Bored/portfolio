@@ -55,8 +55,9 @@ const titles = {
     "css3.png",
     "d3.jpeg",
     "/dash.png",
+    '/hbs.jpeg'
   ],
-  Tools: ["/anaconda.png", "/vscode.svg", "jupyter.svg", "/postman.png"],
+  Tools: ['/numpy.svg', '/plotly.png', '/mat.png', "/anaconda.png", "/vscode.svg", "jupyter.svg", "/postman.png", 'spss.png', 'sas.png', 'tab.png'],
 
   Devops: [
     "/npm.png",
@@ -67,25 +68,27 @@ const titles = {
     "/babel.png",
     "/travis-ci.png",
     "/heroku.png",
+    '/chrome-dev.png',
+    '/docker.png'
   ],
   Languages: [
     "/javascript.png",
     "/python.png",
-    "/numpy.svg",
-    "/plotly.png",
-    "/mat.png",
   ],
 
   Testing: ["/mocha.svg", "/chai.png", "/jasmine.svg"],
   Backend: [
+    '/flask.png',
     "/firebase.png",
     "/express.png",
     "/node-js.png",
+    '/sql.png',
     "/postgreesql.png",
     "/sequelize.svg",
     "/passport.svg",
     "/oauth.svg",
     "/socket.svg",
+    '/graphql.png'
   ],
 };
 
