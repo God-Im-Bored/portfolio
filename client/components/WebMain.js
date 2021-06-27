@@ -39,7 +39,7 @@ const projects = {
   "COVID-19 Tracker": [
     "coronavirus--v2.gif",
     "A full covid-19 tracker that captures the impact of the virus on Illinois counties.",
-    "Create-React-App, NPM, Netlify, ChartJs, IDPH Covid-19 API ",
+    "Create-React-App, NPM, Netlify, ChartJs, Axios, IDPH Covid-19 API, Classnames ",
     "https://wonderful-carson-d7f17f.netlify.app/",
     "https://github.com/God-Im-Bored/chicago-covid-dash"
   ],
