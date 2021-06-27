@@ -36,6 +36,13 @@ const projects = {
     "https://weather-now-65e346.netlify.app/",
     "https://github.com/God-Im-Bored/weather-widget"
   ],
+  "COVID-19 Tracker": [
+    "coronavirus--v2.gif",
+    "A full covid-19 tracker that captures the impact of the virus on Illinois counties.",
+    "Create-React-App, NPM, Netlify, ChartJs, IDPH Covid-19 API ",
+    "https://wonderful-carson-d7f17f.netlify.app/",
+    "https://github.com/God-Im-Bored/chicago-covid-dash"
+  ],
   "Players' Shot Charts": [
     "shot-chart.jpeg",
     "Coming Soon.",
