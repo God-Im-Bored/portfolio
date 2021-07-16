@@ -34,23 +34,23 @@ const projects = {
     "A free and responsive application that displays weather temperature, related icons, and descriptions about a city's forecast.",
     "React, OpenWeatherAPI, Node, NPM, Babel, Webpack, Netlify.",
     "https://weather-now-65e346.netlify.app/",
-    "https://github.com/God-Im-Bored/weather-widget"
+    "https://github.com/God-Im-Bored/weather-widget",
   ],
   "COVID-19 Tracker": [
     "coronavirus--v2.gif",
     "A full covid-19 tracker that captures the impact of the virus on Illinois counties.",
     "Create-React-App, NPM, Netlify, ChartJs, Axios, IDPH Covid-19 API, Classnames ",
     "https://wonderful-carson-d7f17f.netlify.app/",
-    "https://github.com/God-Im-Bored/chicago-covid-dash"
+    "https://github.com/God-Im-Bored/chicago-covid-dash",
   ],
   "Players' Shot Charts": [
     "shot-chart.jpeg",
-    "Coming Soon.",
-    "tech-stack"],
-  "Document Viewer": [
-    "pdf.png",
-    "Coming Soon.",
-    "tech-stack"],
+    "A web-application where users can search for their favorite player's shot efficiency for any given season.",
+    "Python/Flask, React, ChartsJs, Axios, NBA_API, Material-UI",
+    "https://peaceful-meninsky-80b1b7.netlify.app/",
+    "https://github.com/God-Im-Bored/NBA_Shot_Charts",
+  ],
+  "Document Viewer": ["pdf.png", "Coming Soon.", "tech-stack"],
 };
 
 const titles = {
@@ -62,40 +62,48 @@ const titles = {
     "css3.png",
     "d3.jpeg",
     "/dash.png",
-    '/hbs.jpeg'
+    "/hbs.jpeg",
   ],
-  Tools: ['/numpy.svg', '/plotly.png', '/mat.png', "/anaconda.png", "/vscode.svg", "jupyter.svg", "/postman.png", 'spss.png', 'sas.png', 'tab.png'],
+  Tools: [
+    "/numpy.svg",
+    "/plotly.png",
+    "/mat.png",
+    "/anaconda.png",
+    "/vscode.svg",
+    "jupyter.svg",
+    "/postman.png",
+    "spss.png",
+    "sas.png",
+    "tab.png",
+  ],
 
   Devops: [
     "/npm.png",
-    '/netlify.svg',
+    "/netlify.svg",
     "/webpack.png",
     "github.png",
     "/git.webp",
     "/babel.png",
     "/travis-ci.png",
     "/heroku.png",
-    '/chrome-dev.png',
-    '/docker.png'
+    "/chrome-dev.png",
+    "/docker.png",
   ],
-  Languages: [
-    "/javascript.png",
-    "/python.png",
-  ],
+  Languages: ["/javascript.png", "/python.png"],
 
   Testing: ["/mocha.svg", "/chai.png", "/jasmine.svg"],
   Backend: [
-    '/flask.png',
+    "/flask.png",
     "/firebase.png",
     "/express.png",
     "/node-js.png",
-    '/sql.png',
+    "/sql.png",
     "/postgreesql.png",
     "/sequelize.svg",
     "/passport.svg",
     "/oauth.svg",
     "/socket.svg",
-    '/graphql.png'
+    "/graphql.png",
   ],
 };
 
